@@ -8,9 +8,9 @@ namespace ShapeSquare
 {
     public class Triangle : IShape
     {
-        double A { get; set; }
-        double B { get; set; }
-        double C { get; set; }
+        public double A { get; set; }
+        public double B { get; set; }
+        public double C { get; set; }
 
         public Triangle()
         {
