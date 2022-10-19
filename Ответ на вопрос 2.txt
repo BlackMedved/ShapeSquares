@@ -1,2 +1,2 @@
-SELECT prod.Name AS "Имя продукта", cat.Name AS "Имя категории"
+SELECT prod.Name AS "РРјСЏ РїСЂРѕРґСѓРєС‚Р°", cat.Name AS "РРјСЏ РєР°С‚РµРіРѕСЂРёРё"
 FORM Products prod LEFT JOIN Categories cat ON prod.CategoryId = cat.Id
